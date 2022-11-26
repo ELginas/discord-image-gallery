@@ -1,4 +1,7 @@
 # Discord Image Gallery
+
+Video example: https://imgur.com/a/AlQqhNo
+
 Have you ever wanted to find that one image you remembered and wanted to show it to your friend, but you've been stuck searching for it for hours? Wait no more! Discord Image Gallery is for you! Instead of spending hours using `has:image`, you can just scroll down and look what you need and maybe even find something you completely forgotten.
 
 ## Usage
