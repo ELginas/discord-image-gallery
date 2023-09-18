@@ -137,8 +137,10 @@ async function request() {
   if (finished) return
   requestAllowed = false
 
+  const channelType = document.querySelector("#type").value 
+
   const res = await fetch(
-    `https://discord.com/api/v9/channels/${currentChannelId}/messages/search?has=image&offset=${currentOffset}`,
+    `https://discord.com/api/v9/${channelType}/${currentChannelId}/messages/search?has=image&offset=${currentOffset}`,
     {
       headers: {
         accept: "*/*",

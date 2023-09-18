@@ -219,3 +219,9 @@ nav > *:last-child {
   width: auto;
   height: auto;
 }
+
+select {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #080808;
+}
