@@ -11,7 +11,7 @@ Have you ever wanted to find that one image you remembered and wanted to show it
     2. Open browser Developer Tools in Discord (Ctrl+Shift+I)
     3. In Dev Tools, navigate to Network tab.
     4. In Discord, navigate to a new channel.
-    5. In Dev Tools, click on arequest called `messages` or anything similar.
+    5. In Dev Tools, click on a request called `messages` or anything similar.
     6. Under request headers section, copy header value on the left of `Authorization` looking similarly to `eyJhbGciOiJIUzI1NiIsInR5c.e30.8VKCTiBegJPuPIZlp0wbV0Sbdn5BS6TE5DCx6oYN`.
   - Now that is your Discord token. Now change `DISCORD_TOKEN` to your Discord token in `index.js`. Your Discord token is only used to search for images in your chosen channel (but don't share it with anyone).
 3. Open `index.html` in your favourite browser
